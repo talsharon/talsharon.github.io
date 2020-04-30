@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I help startups build & improve their iOS apps. I offer my skills at: designing, defining and coding to create great quality apps, usually from scratch. I assist in improving existing apps by taking them to the next level. I worked with several startups and individual clients, among them: Nexar, Sunbit, Shahal, Binat, and more.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[talsharonts@gmail.com](mailto:talsharonts@gmail.com)
