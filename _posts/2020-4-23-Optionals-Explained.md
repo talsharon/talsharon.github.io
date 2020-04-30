@@ -6,7 +6,7 @@ title: Optionals Explained ❓
 Any *Swift* developer is familiar with *Optionals*. *Optionals* are *Swift* method of ensuring when a variable is accsessed, its value is not *nil*.
 This allows us to access the variable safely, making our code clean and consistent.
 But how is this mechanism implemented?
-If we examine the *Swift* language repository, we'll find out that *Optional* is actaully implmeneted as an *enum*!
+If we examine the *Swift* language repository, we'll find out that *Optional* is actaully implemented as an *enum*!
  
 # 🤯
 
