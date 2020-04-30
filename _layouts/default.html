@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  img {
+    border-radius: 50%;
+  }
+</style>
 
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -19,7 +24,7 @@
     <div class="masthead">
       <div class="container">
         <header>
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="200" height="200" border-radius="50%"/></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="200" height="200"/></a>
 
           <div>
             <h1 class="masthead-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
