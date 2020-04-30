@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -47,5 +48,37 @@
     </div>
 
     {% include analytics.html %}
+  </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h1 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+        </h1>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+          {% avatar mecid size=100 %}
+          <small>Hi! My name is Tal Sharon</small>
+          <small>I'm a super talented dishwasher at night, and a freelance Swift developer by day 🙋‍♂️💻</small>
+          <small>Feel free to follow me on <a href="https://github.com/talsharon">Github</a>.</small>
+        <small>
+          Tal Sharon &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
   </body>
 </html>
