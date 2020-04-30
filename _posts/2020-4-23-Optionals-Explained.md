@@ -108,5 +108,5 @@ if myOptionalVar.hasValue {
 
 ### Conclusion
 
-We now understand how Optionla is implmeneted in swift. We used our understanding to extend to our won needs.
+We now understand how Optionals are implemented in swift. We used our understanding to extend them to our own needs.
 The fact Swift is open sourced allows us to examine its internal definitions and make better use of it 🚀
