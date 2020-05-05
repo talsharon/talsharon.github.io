@@ -136,7 +136,7 @@ extension UIView {
     leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
   }
   
-  func pinTraling(to view: UIView) {
+  func pinTrailing(to view: UIView) {
     translatesAutoresizingMaskIntoConstraints = false
     trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
   }
@@ -166,7 +166,7 @@ Next step we will define more custom opertors which will use these functions:
   }
 
   func ->|(_ lhs: UIView, _ rhs: UIView) {
-    lhs.pinTraling(to: rhs)
+    lhs.pinTrailing(to: rhs)
   }
 
   func ^^(_ lhs: UIView, _ rhs: UIView) {
