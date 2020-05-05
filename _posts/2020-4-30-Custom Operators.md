@@ -113,7 +113,7 @@ Now we can write:
 
 ### Auto layout - give me some sugar
 
-We still dind't solve the boiler plate code involved using auto layout constratins.
+We still didn't solve the boiler plate code involved using auto layout constratins.
 We will achieve it in two steps.
 First step is to define a few helper fucntions to encapsualte the boiler plate code (and be able to forget about it alltogether :)).
 
