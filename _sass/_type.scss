@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.25;
-  color: $gray-1;
+  color: $offwhite;
   text-rendering: optimizeLegibility;
 }
 
@@ -32,7 +32,7 @@ p {
 }
 
 strong {
-  color: $gray-1;
+  color: $offwhite;
 }
 
 ul, ol, dl {
@@ -64,7 +64,7 @@ abbr {
 
   &[title] {
     cursor: help;
-    border-bottom: 1px dotted $gray-1;
+    border-bottom: 1px dotted $offwhite;
   }
 }
 
@@ -72,7 +72,7 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid $gray-1;
+  border-left: .25rem solid $offwhite;
 
   p:last-child {
     margin-bottom: 0;
