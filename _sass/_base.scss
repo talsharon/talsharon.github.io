@@ -5,7 +5,7 @@ body {
 }
 
 html {
-  font-family: $root-font-family;
+  font-family: $medium-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
 
@@ -66,15 +66,19 @@ tbody tr:nth-child(odd) th {
 }
 
 nav {
-  color: $swift-red;
+  color: $green;
 }
 
 nav a {
-  color: $swift-red;
+  color: $green;
   display: inline;
   padding-right: 30px;
 }
 
 article a {
-  color: $purple;
+  color: $faded-black;
+}
+
+a.link {
+  color: $green;
 }

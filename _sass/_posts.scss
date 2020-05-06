@@ -11,14 +11,13 @@
 .page-title,
 .post-title,
 .post-title a {
-  color: $purple;
+  color: $faded-black;
 }
 .page-title,
 .post-title {
   margin-top: 0;
 }
 
-// Meta data line below post title
 .post-date {
   display: block;
   margin-top: -.5rem;
@@ -27,7 +26,6 @@
 }
 
 
-// Related posts
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
