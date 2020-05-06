@@ -24,16 +24,16 @@
     <div class="masthead">
       <div class="container">
         <header>
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="150" height="150"/></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" style="display: inline-block;margin: 0 1rem 0 0;" width="100" height="100"/></a>
 
-          <div>
+          <div style="display: inline-block;">
             <h1 class="masthead-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav class="nav">
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a>⭕️</a>
+            <a>🍏</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
@@ -46,10 +46,12 @@
       </main>
 
       <footer class="footer">
+          <img src="{{ site.avatar }}" style="display: inline-block;margin: 0 1rem 0 0;" width="100" height="100"/></a>
           <small>Hi! My name is Tal</small>
-          <small>I'm a freelance Swift developer 🤖️ 💻 and a SWift fan 🔥</small>
-          <small>Feel free to follow me on <a href="https://github.com/talsharon">Github</a>.</small>
-          <small>And visit my profile on <a href="https://www.linkedin.com/in/tal-sharon/">LinkedIn</a>.</small>
+          <small>I'm an experienced freelance iOS developer 🤖️ 💻</small>
+          <small>and a Swift fan 🔥</small>
+          <small>Feel free to follow me on <a href="https://github.com/talsharon"; class="link";>Github</a>.</small>
+          <small>And visit my profile on <a href="https://www.linkedin.com/in/tal-sharon/"; class="link";>LinkedIn</a>.</small>
         <small>
           Tal Sharon &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
