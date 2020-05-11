@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Custom Speech Bubble 💬
+title: Creating a custom speech bubble 💬
 ---
 
 When developing iOS apps UI, it is very common to create custom controls which can be reused all across app. Custom controls allows creating very specific UI and behaviours while controling pixel perfect display. In today's post I'm going to demonstrate how to create a custom speech-bubble which can be used in chat-like applications.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optionals Explained 🧐
+title: Optionals explained 🧐
 ---
 
 Any *Swift* developer is familiar with *Optionals*. *Optionals* are *Swift* method of ensuring that when a variable is accessed, its value is not *nil*.

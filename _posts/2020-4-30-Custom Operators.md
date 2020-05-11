@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Custom Operators 🥳
+title: Custom operators 🥳
 ---
 
 Swift lets us easily define custom operators. I am going to demonstrate how it is done using a simple use case - managing and layouting views.
